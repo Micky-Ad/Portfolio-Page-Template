@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+ 
+  width: 1400px;
+  margin:auto
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: gray;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 1000vmax;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList{
+  list-style: none;
+}
