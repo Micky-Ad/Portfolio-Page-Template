@@ -13,7 +13,7 @@ body {
 
 .container {
  
-  width: 1400px;
+  width: 90%;
   margin:auto
 }
 
@@ -33,9 +33,16 @@ header {
 
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .navList{
+  display: flex;
   list-style: none;
+  gap: 25px;
+}
+
+.navList li {
+  cursor: pointer;
 }

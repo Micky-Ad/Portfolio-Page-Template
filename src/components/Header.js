@@ -1,10 +1,14 @@
 import Navigation from "./Navigation";
 
-function Header() {
+function Header(props) {
+  let pageName = "";
+  // function test() {
+  //   alert(pageName);
+
   return (
     <header>
       <div className="container">
-        <Navigation />
+        <Navigation pageClick={props.pageClick} />
       </div>
     </header>
   );
