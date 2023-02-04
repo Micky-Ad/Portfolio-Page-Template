@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { FaGithubSquare } from "react-icons/fa";
 
 import "./style.css";
 import Header from "./components/Header";
@@ -16,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <Header pageClick={displayPage} />
-      {page == "About" && <About />}
-      {page == "Contact" && <Contact />}
-      {page == "Resume" && <Resume />}
-      {page == "Porfolio" && <Porfolio />}
+      {page === "About" && <About />}
+      {page === "Contact" && <Contact />}
+      {page === "Resume" && <Resume />}
+      {page === "Porfolio" && <Porfolio />}
       <Footer />
     </div>
   );

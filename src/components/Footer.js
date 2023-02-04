@@ -1,7 +1,14 @@
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+
 function Footer() {
   return (
     <div>
-      <div className="container"> Footer</div>
+      <div className="container">
+        {" "}
+        Footer
+        <FaGithubSquare className="icon" />
+        <FaLinkedin className="icon" />
+      </div>
     </div>
   );
 }

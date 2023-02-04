@@ -1,27 +1,42 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: black;
   
 }
 
+
 body {
   background-color: whitesmoke;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+      background-color: black; */
+     
 }
 
 .container {
  
   width: 90%;
-  margin:auto
+  margin:auto;
+  background-color: black;
+  color: aliceblue;
+  /* background: linear-gradient(90deg,
+        rgb(180, 249, 240) 0%,
+        rgba(249, 211, 180, 0) 100%); */
+
+ 
+  
 }
 
-header {
+header,footer {
   padding-top: 15px;
   padding-bottom: 15px;
+  /* background: linear-gradient(90deg,
+        rgb(39, 110, 101) 50%,
+        rgba(249, 211, 180, 0) 100%); */
 
-  background-color: gray;
 }
 
 .logo {
@@ -29,20 +44,44 @@ header {
   height: 40px;
   object-fit: cover;
   border-radius: 1000vmax;
+  background-color: black;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
+
+  background: linear-gradient(90deg,
+        rgb(124, 252, 235) 0%,
+        rgba(249, 211, 180, 0) 100%);
+        
 }
 
 .navList{
   display: flex;
   list-style: none;
   gap: 25px;
+  color: aqua;
 }
 
 .navList li {
   cursor: pointer;
+}
+
+
+
+.icon {
+  background-color: black;
+  width: 20px;
+}
+
+.about {
+ width: 90%;
+ width: auto;
+ display: block;
+ font-size: small;
+ align-content: center;
+ text-align: center;
 }
