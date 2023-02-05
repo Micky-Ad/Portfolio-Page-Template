@@ -5,9 +5,13 @@ function Footer() {
     <div className="footerContainer">
       <div className="container">
         {" "}
-        Footer
-        <FaGithubSquare className="icon" />
-        <FaLinkedin className="icon" />
+        <p>Micky Adera</p>
+        <a href="https://github.com/Micky-Ad" target="_blank">
+          <FaGithubSquare className="icon" />
+        </a>
+        <a href="#">
+          <FaLinkedin className="icon" />
+        </a>
       </div>
     </div>
   );
