@@ -2,7 +2,7 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div>
+    <div className="footerContainer">
       <div className="container">
         {" "}
         Footer

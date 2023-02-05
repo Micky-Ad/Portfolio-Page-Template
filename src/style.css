@@ -3,40 +3,29 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: black;
+  /* background-color: black; */
   
 }
 
 
 body {
   background-color: whitesmoke;
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-      background-color: black; */
-     
+      /* background-color: black;  */
 }
 
 .container {
- 
-  width: 90%;
-  margin:auto;
-  background-color: black;
-  color: aliceblue;
-  /* background: linear-gradient(90deg,
-        rgb(180, 249, 240) 0%,
-        rgba(249, 211, 180, 0) 100%); */
-
- 
-  
+  width: min(1400px, 90%);
+  margin: auto;
 }
 
 header,footer {
   padding-top: 15px;
   padding-bottom: 15px;
-  /* background: linear-gradient(90deg,
+  background: linear-gradient(90deg,
         rgb(39, 110, 101) 50%,
-        rgba(249, 211, 180, 0) 100%); */
-
+        rgba(249, 211, 180, 0) 100%);
 }
 
 .logo {
@@ -44,7 +33,7 @@ header,footer {
   height: 40px;
   object-fit: cover;
   border-radius: 1000vmax;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .nav {
@@ -52,36 +41,59 @@ header,footer {
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
-
-  background: linear-gradient(90deg,
-        rgb(124, 252, 235) 0%,
-        rgba(249, 211, 180, 0) 100%);
-        
+  gap: 50px;
 }
+
 
 .navList{
   display: flex;
   list-style: none;
   gap: 25px;
-  color: aqua;
+  color: black;
 }
 
 .navList li {
   cursor: pointer;
 }
 
-
-
 .icon {
   background-color: black;
   width: 20px;
 }
 
-.about {
- width: 90%;
+.mainBody {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 80%;
+ width: 60%;
  width: auto;
  display: block;
  font-size: small;
  align-content: center;
  text-align: center;
+ 
+}
+
+
+.mainBody p {
+padding-top: 30px;
+}
+
+.mainBody li {
+padding-top: 20px;
+list-style: none;
+
+}
+.profilePhoto{
+  width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 1000vmax;
+}
+
+.footerContainer{
+align-items: center;
+  size: 20px;
+  align-content: center;
+
 }
