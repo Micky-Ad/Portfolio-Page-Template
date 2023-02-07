@@ -5,6 +5,7 @@ function Contact() {
   let [emailError, setEmailError] = useState("");
   let [messageError, setMessageError] = useState("");
 
+  // Validate name,email and message values
   function validateForm(event) {
     var target = event.target;
     var input = target.getAttribute("name");
@@ -51,7 +52,10 @@ function Contact() {
     <div>
       <div className="container">
         <div className="mainBody">
-          <p>Email: test@test.com</p>
+          <p>
+            Please add the following information if you would like to get in to
+            conact me.
+          </p>
           <div className="formContainer">
             <form className="contactForm">
               <div className="formGroup">

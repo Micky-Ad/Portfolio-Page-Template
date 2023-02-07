@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
 
 * {
   box-sizing: border-box;
@@ -6,18 +9,22 @@
 
 }
 
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
 
 body {
-  background-color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
-
-   
+  font-family: var(--font-roboto);
+  background-color: #212426;
 }
+
+
 
 .container {
   width: min(1400px, 90%);
   margin: auto;
+  color: aliceblue;
 }
 
 .App {
@@ -25,6 +32,7 @@ display: grid;
 grid-template-rows: auto 1fr auto;
 min-height: 100dvh;
 min-height: 100vh;
+
 }
 
 
@@ -32,7 +40,7 @@ header,footer {
   padding-top: 15px;
   padding-bottom: 15px;
   background: linear-gradient(90deg,
-        rgb(39, 110, 101) 50%,
+        rgb(27, 170, 151) 60%,
         rgba(249, 211, 180, 0) 100%);
 }
 
@@ -128,7 +136,7 @@ width: 500px;
 
 .btn{
   border: none;
-  background-color: aqua;
+  background-color: rgb(27, 170, 151);
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
@@ -141,4 +149,48 @@ width: 500px;
 
 .footerContainer {
   text-align: center;
+}
+
+.about  {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.about h2 {
+  width: 400px;
+  padding-top: 50px;
+  font-size: large;
+
+}
+
+
+
+.projcetName {
+display: flex;
+
+}
+
+.download {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+}
+
+.resume  {
+
+  padding-top: 50px;
+  margin-top: 60px;
+  align-items: center;
+}
+.skills h2 {
+  padding-bottom:20px;
+  align-content: center;
+  size: 50px;
+}
+
+.skills a{
+font-size: 100px;
+color: white;
+padding: 20px;
 }

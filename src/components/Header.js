@@ -2,8 +2,6 @@ import Navigation from "./Navigation";
 
 function Header(props) {
   let pageName = "";
-  // function test() {
-  //   alert(pageName);
 
   return (
     <header>
