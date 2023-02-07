@@ -73,7 +73,7 @@ header,footer {
 }
 
 .icon {
-  /* background-color: black; */
+  color: white;
   width: 20px;
 }
 
@@ -164,8 +164,6 @@ font-size: 20px;
 
 }
 
-
-
 .projcetName {
 display: flex;
 
@@ -193,4 +191,23 @@ display: flex;
 font-size: 100px;
 color: white;
 padding: 20px;
+}
+
+.projectImg {
+height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.projectGrid {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.project{
+  width: calc(50% - 15px);
 }

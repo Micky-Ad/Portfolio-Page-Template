@@ -16,37 +16,38 @@ function Resume() {
       <div className="container">
         <div className="mainBody resume">
           <div className="skills">
-            <h2>I have Web Development Skills With: </h2>
-            <a href="#">
+            <h1>I have Web Development Skills With: </h1>
+            <span>
               <FaHtml5 className="icon" />
-            </a>{" "}
-            <a href="#">
+              HTML
+            </span>{" "}
+            <span>
               <FaCss3Alt className="icon" />
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span>
               <DiJavascript1 className="icon" />
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span>
               <FaNodeJs className="icon" />
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span>
               <DiMongodb className="icon" />
-            </a>
-            <a href="#">
+            </span>
+            <span>
               <FaReact className="icon" />
-            </a>{" "}
-            <a href="#">
+            </span>{" "}
+            <span>
               <SiMysql className="icon" />
-            </a>
-            <a href="#">
+            </span>
+            <span>
               <FaGithubSquare className="icon" />
-            </a>
+            </span>
           </div>
           <div>
-            <a download href={resume} className="btn download">
+            <span download href={resume} className="btn download">
               {" "}
               Download Resume{" "}
-            </a>
+            </span>
           </div>
         </div>
       </div>

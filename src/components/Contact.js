@@ -53,8 +53,7 @@ function Contact() {
       <div className="container">
         <div className="mainBody">
           <p>
-            Please add the following information if you would like to get in to
-            conact me.
+            Please add the following information if you would like to conact me.
           </p>
           <div className="formContainer">
             <form className="contactForm">
