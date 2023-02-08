@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4c0c4ee1.css",
-    "main.js": "/React-Portfolio/static/js/main.015d22cb.js",
-    "static/js/787.88de7276.chunk.js": "/React-Portfolio/static/js/787.88de7276.chunk.js",
-    "static/media/food.png": "/React-Portfolio/static/media/food.b07ef9ddc738018fa3e1.png",
-    "static/media/eCommerce.png": "/React-Portfolio/static/media/eCommerce.f4b98c3cc42c02811cae.png",
-    "static/media/employeeTracker.png": "/React-Portfolio/static/media/employeeTracker.2fff1faf006e89ce3868.png",
-    "static/media/blog.PNG": "/React-Portfolio/static/media/blog.cb7f5b8854dbdce6f281.PNG",
-    "static/media/social.PNG": "/React-Portfolio/static/media/social.0ee95ddaff5ff58f21a4.PNG",
-    "static/media/Mkz.pdf": "/React-Portfolio/static/media/Mkz.0890360e88e3e7c96ef0.pdf",
-    "static/media/logo.PNG": "/React-Portfolio/static/media/logo.17b13b04fbe68d4ffa68.PNG",
-    "index.html": "/React-Portfolio/index.html",
-    "main.4c0c4ee1.css.map": "/React-Portfolio/static/css/main.4c0c4ee1.css.map",
-    "main.015d22cb.js.map": "/React-Portfolio/static/js/main.015d22cb.js.map",
-    "787.88de7276.chunk.js.map": "/React-Portfolio/static/js/787.88de7276.chunk.js.map"
+    "main.css": "/Portfolio-Page-Template/static/css/main.4c0c4ee1.css",
+    "main.js": "/Portfolio-Page-Template/static/js/main.f2162960.js",
+    "static/js/787.88de7276.chunk.js": "/Portfolio-Page-Template/static/js/787.88de7276.chunk.js",
+    "static/media/food.png": "/Portfolio-Page-Template/static/media/food.b07ef9ddc738018fa3e1.png",
+    "static/media/eCommerce.png": "/Portfolio-Page-Template/static/media/eCommerce.f4b98c3cc42c02811cae.png",
+    "static/media/employeeTracker.png": "/Portfolio-Page-Template/static/media/employeeTracker.2fff1faf006e89ce3868.png",
+    "static/media/blog.PNG": "/Portfolio-Page-Template/static/media/blog.cb7f5b8854dbdce6f281.PNG",
+    "static/media/social.PNG": "/Portfolio-Page-Template/static/media/social.0ee95ddaff5ff58f21a4.PNG",
+    "static/media/Mkz.pdf": "/Portfolio-Page-Template/static/media/Mkz.0890360e88e3e7c96ef0.pdf",
+    "static/media/logo.PNG": "/Portfolio-Page-Template/static/media/logo.17b13b04fbe68d4ffa68.PNG",
+    "index.html": "/Portfolio-Page-Template/index.html",
+    "main.4c0c4ee1.css.map": "/Portfolio-Page-Template/static/css/main.4c0c4ee1.css.map",
+    "main.f2162960.js.map": "/Portfolio-Page-Template/static/js/main.f2162960.js.map",
+    "787.88de7276.chunk.js.map": "/Portfolio-Page-Template/static/js/787.88de7276.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c0c4ee1.css",
-    "static/js/main.015d22cb.js"
+    "static/js/main.f2162960.js"
   ]
 }
