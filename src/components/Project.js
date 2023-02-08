@@ -1,4 +1,4 @@
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Project(props) {
   return (

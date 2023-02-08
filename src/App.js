@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaGithubSquare } from "react-icons/fa";
 
 import "./style.css";
@@ -8,7 +8,6 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Porfolio from "./components/Porfolio";
 import Footer from "./components/Footer";
-import Background from "./components/Background";
 
 function App() {
   let [page, setPage] = useState("About");
@@ -22,7 +21,6 @@ function App() {
       {page === "Contact" && <Contact />}
       {page === "Resume" && <Resume />}
       {page === "Porfolio" && <Porfolio />}
-      <Background porfolio1="porfolio1.jpg" />
       <Footer />
     </div>
   );

@@ -17,31 +17,41 @@ function Resume() {
         <div className="mainBody resume">
           <div className="skills">
             <h1>I have Web Development Skills With: </h1>
-            <span>
-              <FaHtml5 className="icon" />
-              HTML
-            </span>{" "}
-            <span>
-              <FaCss3Alt className="icon" />
-            </span>{" "}
-            <span>
-              <DiJavascript1 className="icon" />
-            </span>{" "}
-            <span>
-              <FaNodeJs className="icon" />
-            </span>{" "}
-            <span>
-              <DiMongodb className="icon" />
-            </span>
-            <span>
-              <FaReact className="icon" />
-            </span>{" "}
-            <span>
-              <SiMysql className="icon" />
-            </span>
-            <span>
-              <FaGithubSquare className="icon" />
-            </span>
+            <ul>
+              <li>
+                HTML
+                <FaHtml5 className="icon" />
+              </li>{" "}
+              <li>
+                CSS
+                <FaCss3Alt className="icon" />
+              </li>{" "}
+              <li>
+                JavaScript
+                <DiJavascript1 className="icon" />
+              </li>{" "}
+              <li>
+                NodeJS
+                <FaNodeJs className="icon" />
+              </li>{" "}
+              <li>
+                MongoDB
+                <DiMongodb className="icon" />
+              </li>
+              <li>
+                ReactJS
+                <FaReact className="icon" />
+              </li>{" "}
+              <li>
+                MySql
+                <SiMysql className="icon" />
+              </li>
+              <li>
+                GitHub
+                <FaGithubSquare className="icon" />
+              </li>
+            </ul>
+            <h2> And More ... </h2>
           </div>
           <div>
             <span download href={resume} className="btn download">

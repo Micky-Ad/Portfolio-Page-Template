@@ -1,7 +1,6 @@
 import logo from "./../assets/logo.PNG";
-import background from "./Background";
 
-function About() {
+function About(props) {
   return (
     <div>
       <div className="container">

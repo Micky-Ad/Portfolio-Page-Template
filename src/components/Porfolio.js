@@ -4,13 +4,15 @@ import React, { useState } from "react";
 import blogImg from "./../assets/blog.PNG";
 import foodImg from "./../assets/food.png";
 import socialImg from "./../assets/social.PNG";
+import eCommerce from "./../assets/eCommerce.png";
+import employeeTracker from "./../assets/employeeTracker.png";
 
 function Porfolio() {
   var allProjects = [
     {
-      title: "Blog Site",
-      URL: "https://github.com/Micky-Ad/Blog-Site",
-      img: blogImg,
+      title: "Ecommerce Store",
+      URL: "https://github.com/YehOkiHub/EcommerceStore",
+      img: eCommerce,
     },
     {
       title: "Food and Drink Generator",
@@ -18,24 +20,39 @@ function Porfolio() {
       img: foodImg,
     },
     {
+      title: "Blog Site",
+      URL: "https://github.com/Micky-Ad/Blog-Site",
+      img: blogImg,
+    },
+
+    {
       title: "Employee Tracker",
       URL: "https://github.com/Micky-Ad/Employee-Tracker",
-      img: blogImg,
+      img: employeeTracker,
     },
     {
       title: "Social Network API",
       URL: "https://github.com/Micky-Ad/Social-Network-API",
       img: socialImg,
     },
-    {
-      title: "Ecommerce Store",
-      URL: "https://github.com/YehOkiHub/EcommerceStore",
-      img: blogImg,
-    },
   ];
 
   let [projects, setProjecs] = useState(allProjects);
-  console.log(projects);
+  function Project(props) {
+    return (
+      <div className="project">
+        <div className="projectName">
+          <div>
+            <img className="projectImg" src={props.img} />
+            <p>{props.title}</p>
+            <a href={props.URL} target="_blank">
+              <FaGithubSquare className="icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
   return (
     <div>
       <div className="container">
