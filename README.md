@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/Micky-Ad/README-Page-Generator?style=for-the-badge)
+
 # Portfolio Page Made with React
 -----------------------------------------------------------------------  
 - A template of single-page application portfolio page for a web developer made with React.
@@ -32,6 +34,3 @@
 ----------------------------------------------------------------------
 -	A template for a web developer portfolio page.
 
-# License:
------------------------------------------------------------------------
-[MIT](https://choosealicense.com/licenses/mit/)
