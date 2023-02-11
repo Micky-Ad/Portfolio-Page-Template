@@ -1,6 +1,6 @@
 # Portfolio Page Made with React
 -----------------------------------------------------------------------  
-- A single-page application portfolio page for web developer template.
+- A template of single-page application portfolio page for a web developer made with React.
 
 # Features for the App 
 -----------------------------------------------------------------------   
